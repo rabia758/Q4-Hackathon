@@ -1,0 +1,6 @@
+name: chapter-cards
+description: Render chapters as modern cards with expandable menus
+inputs:
+  - chapters
+outputs:
+  - ChapterCards.tsx

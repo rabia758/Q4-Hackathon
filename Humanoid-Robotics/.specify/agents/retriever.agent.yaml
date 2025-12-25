@@ -1,0 +1,6 @@
+name: RetrieverAgent
+role: Semantic retrieval from vector database
+responsibilities:
+  - Query Qdrant
+  - Filter by chapter / section / selected text
+  - Return top-k chunks

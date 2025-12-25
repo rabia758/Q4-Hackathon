@@ -1,0 +1,48 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-background-color); /* Ensure it uses the global background color */
+  color: var(--ifm-text-color); /* Ensure it uses the global text color */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--ifm-text-color); /* Ensure title color is from theme */
+}
+
+.homepageImage {
+  max-width: 600px; /* Adjust as needed */
+  width: 100%;
+  border-radius: 8px;
+  margin: 2rem auto; /* Center the image and provide vertical spacing */
+  display: block; /* Ensure margin: auto works */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Additional styling for the button if needed, otherwise use global button--secondary */
+.buttons .button--secondary {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+}

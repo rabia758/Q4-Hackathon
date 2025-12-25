@@ -1,0 +1,10 @@
+name: RetrieveChunks
+description: Retrieve relevant content
+inputs:
+  - query
+  - selected_text (optional)
+steps:
+  - Embed query
+  - Query Qdrant
+  - Apply filters
+  - Return top-k chunks

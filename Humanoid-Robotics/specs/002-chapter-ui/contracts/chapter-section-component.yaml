@@ -1,0 +1,69 @@
+# ChapterSection Component Contract
+
+## Component Definition
+
+### Name
+`ChapterSection`
+
+### Purpose
+A reusable React component that displays chapter content in expandable sections for Concepts, Examples, and Summary.
+
+## API Interface
+
+### Props
+| Prop | Type | Required | Default | Description |
+|------|------|----------|---------|-------------|
+| id | string | Yes | - | Unique identifier for the section |
+| title | string | Yes | - | Title displayed in the expandable header |
+| concepts | string \| ReactNode | Yes | - | Content for the Concepts section |
+| examples | string \| ReactNode | Yes | - | Content for the Examples section |
+| summary | string \| ReactNode | Yes | - | Content for the Summary section |
+| defaultExpanded | boolean | No | false | Whether the section is initially expanded |
+| onToggle | (expanded: boolean) => void | No | - | Callback for when section expansion state changes |
+| className | string | No | - | Additional CSS class name |
+
+## Behavior Contract
+
+### Expansion/Collapse
+- Clicking the header toggles the expanded state
+- Smooth animation occurs during state transition (under 300ms)
+- Only one callback is triggered per toggle action
+
+### Accessibility
+- Component is keyboard navigable (Tab key)
+- Space or Enter keys toggle expansion state
+- Proper ARIA attributes are applied for screen readers
+
+### Responsive Behavior
+- Component adapts to different screen sizes
+- Mobile-friendly touch targets (minimum 44px)
+- Layout adjusts appropriately on screens from 320px to 1920px width
+
+## Performance Contract
+
+### Animation Performance
+- Section expansion/collapse completes in under 300ms
+- 60fps smooth transitions maintained
+- No jank or dropped frames during animation
+
+### Rendering Performance
+- Component mounts efficiently
+- State changes don't cause unnecessary re-renders of parent components
+
+## Error Handling
+
+### Invalid Props
+- Invalid prop types will trigger React warnings in development
+- Component gracefully handles missing optional props
+- Required props that are missing will result in component failure with clear error message
+
+## Styling Contract
+
+### CSS Modules
+- Component uses CSS modules to avoid style conflicts
+- BEM methodology followed for class naming
+- Theme variables used for consistent styling with Docusaurus
+
+### Customization
+- Additional className prop allows for custom styling
+- Component styling respects Docusaurus theme configuration
