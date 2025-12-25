@@ -1,9 +1,0 @@
-name: IngestBookContent
-description: Index Docusaurus book into vector DB
-steps:
-  - Load markdown from /docs
-  - Split by headings
-  - Chunk text (300–500 tokens)
-  - Generate embeddings
-  - Store in Qdrant
-  - Save metadata in Neon

@@ -1,6 +1,0 @@
-name: AnswerAgent
-role: Generate grounded answers
-responsibilities:
-  - Answer strictly from retrieved chunks
-  - Add citations
-  - Refuse if context is insufficient

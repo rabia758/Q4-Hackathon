@@ -1,6 +1,0 @@
-name: RAGManager
-role: Orchestrates RAG workflow
-responsibilities:
-  - Decide retrieval mode (full book vs selected text)
-  - Call RetrieverAgent
-  - Pass context to AnswerAgent

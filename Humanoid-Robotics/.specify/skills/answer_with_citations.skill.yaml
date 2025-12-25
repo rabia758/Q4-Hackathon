@@ -1,7 +1,0 @@
-name: AnswerWithCitations
-description: Answer using retrieved content only
-steps:
-  - Read retrieved chunks
-  - Generate answer
-  - Add chapter + section citations
-  - Refuse if empty context

@@ -1,7 +1,0 @@
-name: dropdown-section
-description: Create expandable dropdown sections for chapters
-inputs:
-  - title
-  - content
-outputs:
-  - Reusable React dropdown component
