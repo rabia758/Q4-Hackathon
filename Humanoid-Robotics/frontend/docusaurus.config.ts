@@ -70,7 +70,6 @@ const config: Config = {
     ],
   ],
 
-  themes: ['@docusaurus/theme-classic'],
   plugins: [
     [
       '@docusaurus/plugin-client-redirects',
