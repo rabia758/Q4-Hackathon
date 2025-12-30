@@ -27,15 +27,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* Ensure dark mode styles are minimal or removed as we are defaulting to light theme */
+/* Dark mode overrides */
 [data-theme='dark'] {
-  /* Remove or set to light theme defaults if a dark theme switch is not desired */
-  --ifm-color-primary: #2196F3;
-  --ifm-background-color: #FFFFFF;
-  --ifm-text-color: #333333;
-  --ifm-navbar-background-color: #FFFFFF;
-  --ifm-footer-background-color: #F5F5F5;
-  --ifm-link-color: #2196F3;
+  --ifm-color-primary: #64B5F6;
+  --ifm-background-color: #1b1b1d;
+  --ifm-background-surface-color: #242526;
+  --ifm-text-color: #e3e3e3;
+  --ifm-hero-background-color: #1b1b1d;
+  --ifm-hero-text-color: #e3e3e3;
+  --ifm-navbar-background-color: #242526;
+  --ifm-footer-background-color: #242526;
+  --ifm-link-color: #64B5F6;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
 body {
