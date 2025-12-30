@@ -15,7 +15,7 @@ function HomepageHeader() {
           AI Native Humanoid Robotics
         </Heading>
         <img
-          src="/Q4-Hackathon/img/robot.jpg"
+          src="/img/robot.jpg"
           alt="Robotic Arm"
           className={styles.homepageImage}
         />
