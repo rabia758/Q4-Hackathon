@@ -75,7 +75,7 @@ const config: Config = {
   ],
 
   clientModules: [
-    require.resolve('./src/components/Root'),
+    require.resolve('./src/components/Root/index.tsx'),
   ],
 
   themeConfig: {
