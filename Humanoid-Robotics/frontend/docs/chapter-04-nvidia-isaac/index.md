@@ -1,3 +1,7 @@
+---
+id: isaac
+title: "Chapter 4: NVIDIA Isaac Platform"
+---
 # Chapter 4: NVIDIA Isaac Platform (The AI-Robot Brain)
 
 ## Focus: Advanced perception and training

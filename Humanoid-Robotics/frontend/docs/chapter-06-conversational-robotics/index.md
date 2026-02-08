@@ -1,3 +1,7 @@
+---
+id: conversational
+title: "Chapter 6: Conversational Robotics"
+---
 # Chapter 6: Conversational Robotics (VLA)
 
 ## Focus: The convergence of LLMs and Robotics

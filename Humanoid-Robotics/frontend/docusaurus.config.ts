@@ -123,7 +123,7 @@ const config: Config = {
           items: [
             {
               label: 'Chapter 1',
-              to: '/docs/chapter-01-introduction-to-physical-ai-robotics',
+              to: '/docs/chapter-01-introduction-to-physical-ai-robotics/intro',
             },
           ],
         },

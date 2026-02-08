@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "cd Humanoid-Robotics/frontend && npm install && npm run build",
+    "build": "cd Humanoid-Robotics/frontend && npm install && npm run clear && npm run build",
     "install": "cd Humanoid-Robotics/frontend && npm install"
   }
 }

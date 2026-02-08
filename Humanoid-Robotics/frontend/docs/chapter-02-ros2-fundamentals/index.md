@@ -1,3 +1,7 @@
+---
+id: ros2
+title: "Chapter 2: ROS 2 Fundamentals"
+---
 # Chapter 2: ROS 2 Fundamentals (The Robotic Nervous System)
 
 ## Focus: Middleware for robot control

@@ -1,3 +1,7 @@
+---
+id: intro
+title: "Chapter 1: Introduction to Physical AI Robotics"
+---
 # Chapter 1: Introduction to Physical AI Robotics
 
 ## Focus and Theme

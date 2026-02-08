@@ -1,3 +1,7 @@
+---
+id: simulation
+title: "Chapter 3: Robot Simulation"
+---
 # Chapter 3: Robot Simulation (The Digital Twin)
 
 ## Focus: Physics simulation and environment building
