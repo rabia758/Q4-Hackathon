@@ -1,9 +1,0 @@
-{
-  "name": "root",
-  "version": "1.0.1",
-  "private": true,
-  "scripts": {
-    "build": "cd Humanoid-Robotics/frontend && npm install && npm run clear && npm run build",
-    "install": "cd Humanoid-Robotics/frontend && npm install"
-  }
-}

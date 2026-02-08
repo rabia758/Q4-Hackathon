@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd Humanoid-Robotics/frontend && npm install --legacy-peer-deps && npm run clear && npm run build",
-  "outputDirectory": "Humanoid-Robotics/frontend/build",
-  "framework": "docusaurus",
-  "cleanUrls": true
-}
