@@ -4,17 +4,15 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'Course Overview',
-      link: {
-        type: 'doc',
-        id: 'chapter-01-introduction-to-physical-ai-robotics/index',
-      },
+      label: 'Physical AI Course',
       items: [
+        'index',
         'chapter-01-introduction-to-physical-ai-robotics/index',
-        'chapter-02-mathematics-for-robotics/index',
-        'chapter-03-robot-kinematics/index',
-        'chapter-04-robot-dynamics/index',
-        'chapter-05-sensors-for-humanoid-robotics/index',
+        'chapter-02-ros2-fundamentals/index',
+        'chapter-03-robot-simulation/index',
+        'chapter-04-nvidia-isaac/index',
+        'chapter-05-humanoid-development/index',
+        'chapter-06-conversational-robotics/index',
       ],
     },
   ],
