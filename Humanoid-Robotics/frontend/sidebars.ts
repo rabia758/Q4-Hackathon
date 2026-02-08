@@ -5,8 +5,11 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Physical AI Course',
+      link: {
+        type: 'doc',
+        id: 'chapter-01-introduction-to-physical-ai-robotics/intro',
+      },
       items: [
-        'index',
         'chapter-01-introduction-to-physical-ai-robotics/intro',
         'chapter-02-ros2-fundamentals/ros2',
         'chapter-03-robot-simulation/simulation',

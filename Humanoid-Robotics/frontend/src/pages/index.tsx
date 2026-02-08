@@ -20,6 +20,7 @@ function HomepageHeader() {
           className={styles.homepageImage}
         />
         <div className={styles.buttons}>
+          {/* Last updated: Feb 9, 2026 */}
           <Link
             className="button button--secondary button--lg"
             to="/docs/chapter-01-introduction-to-physical-ai-robotics/intro">

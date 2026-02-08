@@ -1,7 +1,3 @@
----
-id: development
-title: "Chapter 5: Humanoid Robot Development"
----
 # Chapter 5: Humanoid Robot Development
 
 ## Focus: Kinematics, Dynamics, and Locomotion
